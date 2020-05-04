@@ -1,0 +1,244 @@
+body{
+    margin: 0px;
+    width: 100%;
+    background-color: #f7f8fa !important
+}
+.container{
+    margin: 0px auto;
+}
+.header{
+    background-color: #316DC3 !important;
+    text-align: center;
+    padding-top: 10px;
+}
+.header li{
+    display: inline-block;
+    list-style: none;
+    color: white;
+    margin-left: 20px;
+}
+.header p{
+    color: white;
+}
+.header button{
+    border-radius: 0px !important;
+    margin-right: 5px;
+}
+
+.loghead{
+    padding-top: 8px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: #f7f8fa !important
+}
+.logo{
+    width: auto;
+    height: 60px;   
+}
+.btngrp{
+    margin-top: 5px;
+    padding-left:  200px;
+}
+.homebtn{
+    background-color:blue;
+    color: white !important;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+}
+.homebtn :hover {
+    color: white;
+    padding: 2px 0px 2px 5px;
+    text-decoration: none;
+  }
+.dropbtn {
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    margin-top: 10px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+
+  }
+.dropdown-content a {
+    color: black;
+    padding: 2px 0px 2px 5px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown-content a:hover {
+      background-color:blue; 
+      color: white;    
+    }
+.dropdown:hover .dropdown-content {
+      display: block;
+    }
+.dropdown:hover .dropbtn {
+      background-color: blue; 
+      color: white;
+    }
+.mdbtn a{
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    display: inline-block;
+  }
+.mdbtn a:hover {
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+  }
+.slideimg{
+    width: 100%;
+}
+.marqi1{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.marqi1 marquee{
+    width: 100%;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+.hding{
+      text-align: center;
+  }
+.hding h2{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-weight: 600 !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+.intro{
+    padding-bottom: 100px;
+    margin-top: 20px;
+  }
+.intro p{
+    text-align: justify;
+    margin: 0px 150px;
+    color: gray;
+  }
+.about{
+    background-color: blue;
+    padding: 80px 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500 !important;
+  }
+.about h1{
+    color: white;
+    margin-top: 20px;
+  }
+.about p{
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  }
+
+.mainbox{
+    padding: 40px 70px 50px 70px;
+    text-align: center;
+  }
+.box{
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    padding: 40px 40px;
+    width: 97%;
+    margin-bottom: 30px;
+    float: left;
+  }
+.box img{
+    margin-bottom: 20px;
+  }
+.box h4{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+.mainbox2{
+    padding: 40px 70px 50px 70px;
+    background-color: white;
+  }
+.mainbox2 h4{
+    color: rgb(49, 109, 195);;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+.smalbox{
+    border: 1px solid #eeeeee;
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding: 15px;
+    background-color: #f7f8fa;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+.smalbox img{
+    margin-right: 20px;
+  }
+.marqi2 {
+    border-top: 1px solid #eeeeee;
+    height: 200px;
+  }
+.marqi2 marquee{
+    height: 200px;
+  }
+.glry{
+    padding-top: 20px;
+    padding-bottom: 200px;
+    background-color: white;
+  }
+.glry img{
+    width: 225px;
+    height:150px;
+  }
+footer{
+    background-color: rgb(37, 39, 46);
+    padding: 50px 30px 50px 50px;
+  }
+.info{
+    margin-top: 30px;
+    padding-left: 40px;
+    text-align: left;
+  }
+.info i{
+    color: green;
+  }
+.info span{
+    color: #bbb;
+  }
+  
+.usefullinks{
+    width: 100%;
+    border-bottom: 1px solid green;
+    font-weight: 600;
+    color: white;
+    text-align: left;
+  }
+
+.btntop{
+    bottom: 20px;
+    right: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.16);
+    width: 50px;
+    text-align: center;
+}
